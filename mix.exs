@@ -43,8 +43,8 @@ defmodule Arc.Mixfile do
     [
       {:httpoison, "~> 1.0"}, # Required for downloading remote files
       {:ex_aws, "~> 1.1", optional: true},
-      {:mock, "~> 0.1", only: :test},
-      {:ex_doc, "~> 0.14", only: :dev},
+      {:mock, "~> 0.3", only: :test},
+      {:ex_doc, "~> 0.18", only: :dev},
 
       # If using Amazon S3:
       {:poison, "~> 2.2 or ~> 3.1", optional: true},
